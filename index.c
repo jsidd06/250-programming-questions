@@ -1,22 +1,11 @@
-// Ques: 1
 #include<stdio.h>
 
 int main() {
-	char c;
-	printf("enter a character: ");
-	scanf("%c",&c);
-	
-	printf("ASCII of value %c =%d",c,c);
-	return 0;
-}
-// Ques: 2
-#include<stdio.h>
-
-int main() {
-	char c;
-	printf("enter a character: ");
-	scanf("%c",&c);
-	
-	printf("ASCII of value %c =%d",c,c);
+	float a,h,area;
+	printf("Enter the Area of Triangle value \n");
+	scanf("%f",&a);
+	scanf("%f",&h);
+	area = (a*h)/2;
+	printf("this is your area of triangle %f",area);
 	return 0;
 }
