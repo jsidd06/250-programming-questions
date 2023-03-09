@@ -1,12 +1,22 @@
-// Ques-1
+// Ques: 1
 #include<stdio.h>
 
-int main(){
-	float radius, area;
-	printf("enter the value of circle\n");
-	scanf("%f",&radius);
+int main() {
+	char c;
+	printf("enter a character: ");
+	scanf("%c",&c);
 	
-	area = 1.14159 * radius * radius;
-	printf("area of circle is %f",area);
+	printf("ASCII of value %c =%d",c,c);
+	return 0;
+}
+// Ques: 2
+#include<stdio.h>
+
+int main() {
+	char c;
+	printf("enter a character: ");
+	scanf("%c",&c);
+	
+	printf("ASCII of value %c =%d",c,c);
 	return 0;
 }
