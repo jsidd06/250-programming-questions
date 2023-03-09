@@ -1,4 +1,4 @@
-// Ques-1 AREA OF CIRCLE
+Ques-1 AREA OF CIRCLE
 #include<stdio.h>
 
 int main(){
@@ -11,7 +11,7 @@ int main(){
 	return 0;
 }
 
-// Ques: 2 ASCII VALUE
+Ques: 2 ASCII VALUE
 #include<stdio.h>
 
 int main() {
@@ -23,7 +23,7 @@ int main() {
 	return 0;
 }
 
-// QUES 3 AREA OF TRIANGLE
+QUES 3 AREA OF TRIANGLE
 #include<stdio.h>
 
 int main() {
@@ -35,3 +35,16 @@ int main() {
 	printf("this is your area of triangle %f",area);
 	return 0;
 }
+
+QUES 4 Convert a Person�s Name into an Abbreviated
+#include<stdio.h>
+
+int main() {
+	char fname[20],mname[20],lname[20];
+	printf("enter your first name,middle name,last name \n");
+	scanf("%s%s%s",fname,mname,lname);
+	printf("Abbreviated name :%c. %c. %s",fname[0],mname[0],lname);
+	return 0;
+}
+
+QUES 5 Simple Interest
