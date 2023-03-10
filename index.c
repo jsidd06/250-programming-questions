@@ -58,3 +58,14 @@ int main(){
 	printf("it's your interest value %f",interest);
 	return 0;
 }
+QUES 6 Gross Salary of an Employee
+#include<stdio.h>
+
+int main(){
+	float basic,da,hr,salary;
+	printf("enter your basic da or hr\n");
+	scanf("%f %f %f",&basic,&da,&hr);
+	salary = basic+da+hr+salary;
+	printf("this is your salary %f",salary);
+	return 0;
+}
