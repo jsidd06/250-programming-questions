@@ -83,3 +83,14 @@ int main(){
 	return 0;
 	
 }
+
+QUES 8 Converting Temperature Celsius into Fahrenheit
+#include<stdio.h>
+int main(){
+	float Celsius , FahrenheitS;
+	printf("enter the celsius value or fahrenheit's value\n");
+	scanf("%f %f",&Celsius,&FahrenheitS);
+	FahrenheitS = (Celsius * 9/5) + 32;
+	printf("this is your temperature %f",FahrenheitS);
+	return 0;
+}
