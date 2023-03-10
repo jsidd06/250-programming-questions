@@ -142,3 +142,4 @@ int main(){
 	printf("%d, %d, %d \n",num,num *num,num *num *num);
 	return 0;
 }
+
