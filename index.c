@@ -69,3 +69,17 @@ int main(){
 	printf("this is your salary %f",salary);
 	return 0;
 }
+
+Ques 7 Percentage of 5 Subjects
+#include<stdio.h>
+
+int main(){
+	float math,hindi,english,art,history,subtotal,total;
+	printf("enter your subject numbers\n");
+	scanf("%f %f %f %f %f",&math,&hindi,&english,&art,&history);
+	subtotal = (math + hindi + english + art + history);
+	total = (subtotal / 500) * 100 ;
+	printf("this is your percentages number = %.2f",total);
+	return 0;
+	
+}
