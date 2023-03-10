@@ -129,3 +129,16 @@ int main() {
 
     return 0;
 }
+
+QUES 11 Read Integer (N) and Print the First Three Powers (N^1, N^2, N^3)
+
+#include<stdio.h>
+
+int main(){
+	int num;
+	printf("enter the num\n");
+	scanf("%d",&num);
+	printf("output is \n");
+	printf("%d, %d, %d \n",num,num *num,num *num *num);
+	return 0;
+}
