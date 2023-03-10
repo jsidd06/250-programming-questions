@@ -48,3 +48,13 @@ int main() {
 }
 
 QUES 5 Simple Interest
+#include<stdio.h>
+
+int main(){
+	float principal, time,rate,interest;
+	printf("enter the principal interest or time interest or rate interest\n");
+	scanf("%f %f %f",&principal,&time,&rate);
+	interest = (principal*time*rate) /100;
+	printf("it's your interest value %f",interest);
+	return 0;
+}
