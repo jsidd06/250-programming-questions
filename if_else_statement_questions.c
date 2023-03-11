@@ -108,3 +108,19 @@ int main(){
     }
     return 0;
 }
+
+QUES 8 Greatest Among Three Numbers?
+#include<stdio.h>
+int main(){
+    char num1,num2,num3;
+    printf("enter your greatest num\n");
+    scanf("%c %c %c",&num1,&num2,&num3);
+    if(num1 >= num2 && num1 >= num3){
+        printf("first one is greatest",num1);
+    } else if(num2 >= num1 && num2 >= num3){
+        printf("second is greatest",num2);
+    } else {
+        printf("third is greatest",num3);
+    }
+    return 0;
+}
