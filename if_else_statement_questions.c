@@ -80,3 +80,17 @@ int main(){
     }
     return 0;
 }
+
+QUES 6 The Number Is Even or Odd?
+#include<stdio.h>
+int main(){
+    char c;
+    printf("enter the value\n");
+    scanf("%c", &c);
+    if(c % 2== 0){
+        printf("your num is even",c);
+    }else {
+        printf("your num is odd",c);
+    }
+    return 0;
+}
