@@ -15,3 +15,19 @@ int main(){
     return 0;
 
 }
+
+Ques 2 The Number Is Positive or Negative.
+#include<stdio.h>
+
+int main(){
+    double n1;
+    printf("enter your number\n");
+    scanf("%lf",&n1);
+    if(n1 >= 0){
+        printf("you have enter a positive number\n",n1);
+    } else{
+        printf("your number is negative",n1);
+    }
+    return 0;
+}
+
