@@ -46,3 +46,18 @@ int main(){
     }
     return 0;
 }
+
+Ques 4 A Character Is an Alphabet or Not
+#include<stdio.h>
+
+int  main(){
+    char c;
+    printf("check A is character or not\n");
+    scanf("%c", &c);
+    if((c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')){
+        printf("it's a character %c",c);
+    } else{
+        printf("it's not a character %c",c);
+    }
+    return 0;
+}
