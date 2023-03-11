@@ -94,3 +94,17 @@ int main(){
     }
     return 0;
 }
+
+QUES 7 Greatest of Two Numbers?
+#include<stdio.h>
+int main(){
+    char num1,num2;
+    printf("enter your greatest num\n");
+    scanf("%c %c",&num1, &num2);
+    if(num1 >= num2) {
+        printf("first num is greatest",num1);
+    } else {
+        printf("Second num is greatest",num2);
+    }
+    return 0;
+}
