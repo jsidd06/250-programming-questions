@@ -31,3 +31,18 @@ int main(){
     return 0;
 }
 
+Ques 3 Character Is Vowel or Consonant
+
+#include<stdio.h>
+
+int main(){
+    char c;
+    printf("check you have type vowel or not\n");
+    scanf("%c", &c);
+    if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
+        printf("you have typed a vowel %c",c);
+    } else{
+        printf("you have typed constant %c",c);
+    }
+    return 0;
+}
