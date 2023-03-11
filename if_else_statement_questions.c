@@ -61,3 +61,22 @@ int  main(){
     }
     return 0;
 }
+
+Ques 5 Uppercase, Lowercase, Special Character, or Digit
+#include<stdio.h>
+
+int main(){
+    char c;
+    printf("type any value \n");
+    scanf("%c", &c);
+    if(c >= 'a' && c <= 'z'){
+        printf("you have entered a lowercase value",c);
+    } else if(c >= 'A' && c <= 'Z'){
+        printf("you have entered a Uppercase value",c);
+    } else if(c >= '0' && c <= '-1'){
+        printf("you have entered a numeric value",c);
+    } else {
+        printf("you have entered a special character",c);
+    }
+    return 0;
+}
