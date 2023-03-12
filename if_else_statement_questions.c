@@ -211,3 +211,19 @@ int main(){
     } 
     return 0;
 }
+
+QUES 14 Check whether a number is negative, positive or zero?
+#include<stdio.h>
+int main(){
+    double num;
+    printf("enter the numeric value:-");
+    scanf("%lf",&num);
+    if(num > 0){
+        printf("number is positive");
+    } else if(num < -0){
+        printf("number is negative");
+    } else {
+        printf("number is zero");
+    }
+    return 0;
+}
