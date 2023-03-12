@@ -181,3 +181,17 @@ int main(){
     }
     return 0;
 }
+
+QUES 12 Find the maximum between two numbers.
+#include<stdio.h>
+int main(){
+    double num1,num2;
+    printf("enter the maximum between two numbers\n");
+    scanf("%lf %lf",&num1,&num2);
+    if(num1 >= num2){
+        printf("first number is maximum %f",num1);
+    } else if(num2 >= num1){
+        printf("second number is maximum %f",num2);
+    } 
+    return 0;
+}
