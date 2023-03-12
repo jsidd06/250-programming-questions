@@ -168,3 +168,16 @@ int main(){
     return 0;
 }
 
+QUES 11 Voting Eligibility Checker?
+#include<stdio.h>
+int main(){
+    double age;
+    printf("enter your age\n");
+    scanf("%lf",&age);
+    if(age >= 18){
+        printf("you are eligible for voting\n",age);
+    } else {
+        printf("you are not eligible for voting");
+    }
+    return 0;
+}
