@@ -145,3 +145,26 @@ int main() {
    }
    return 0;
 }
+
+QUES 10 The Date Is Correct or Not?
+#include<stdio.h>
+int main(){
+    double dd,mm,yyyy;
+    printf("enter date (dd/mm/yyyy 'Formate')\n");
+    scanf("%lf %lf %lf",&dd,&mm,&yyyy);
+    if(yyyy >= 1900 && yyyy <= 9999){
+        if(mm >= 1 && mm <= 12){
+            if(dd >= 1 && dd <= 31){
+                printf("date is valid",dd,mm,yyyy);
+            } else {
+                printf("please enter date correctly");
+            }
+        } else {
+            printf("please enter month correctly");
+        }
+    } else{
+        printf("please enter year correctly");
+    }
+    return 0;
+}
+
