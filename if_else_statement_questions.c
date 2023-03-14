@@ -282,9 +282,9 @@ int main(){
     printf("enter any character:-");
     scanf("%c",&c);
     if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')){
-        printf("%c is a alphabet.",c);
+        printf("%c is an alphabet.",c);
     } else {
-        printf("%c is not a alphabet.",c);
+        printf("%c is not an alphabet.",c);
     }
     return 0;
 }
