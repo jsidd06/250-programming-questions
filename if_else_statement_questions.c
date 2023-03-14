@@ -364,3 +364,39 @@ int main(){
     }
     return 0;
 }
+
+QUES 23 Input the month number and print the number of days in that month?
+#include<stdio.h>
+int main(){
+    int month;
+    printf("enter a number between[1-12]:-");
+    scanf("%d",&month);
+    if(month == 1){
+        printf("it's January");
+    } else if(month == 2){
+        printf("it's February");
+    } else if(month == 3){
+        printf("it's March");
+    } else if(month == 4){
+        printf("its April");
+    } else if(month == 5){
+        printf("it's May");
+    } else if(month == 6){
+        printf("it's June");
+    } else  if(month == 7){
+        printf("it's July");
+    } else if(month == 8){
+        printf("it's August");
+    } else if(month == 9){
+        printf("it's September");
+    } else if(month == 10){
+        printf("it's October");
+    } else if(month == 11){
+        printf("it's November");
+    } else if(month == 12){
+        printf("it's December");
+    } else {
+        printf("it's not month");
+    }
+    return 0;
+}
