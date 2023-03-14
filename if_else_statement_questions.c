@@ -304,3 +304,20 @@ int main(){
     }
     return 0;
 }
+
+QUES 20 Input any character and check whether it is the alphabet, digit or special
+character?
+#include<stdio.h>
+int main(){
+    char check;
+    printf("enter any character:-");
+    scanf("%c",&check);
+    if((check >= 'a' &&  check <= 'z') ||  (check >= 'A' && check <= 'Z')){
+        printf("you have entered an alphabet");
+    } else if(check >= '0' && check <= '9'){
+        printf("you have entered a number");
+    } else {
+         printf("you have entered a special character");
+    }
+    return 0;
+}
