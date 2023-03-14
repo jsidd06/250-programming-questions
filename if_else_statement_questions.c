@@ -337,3 +337,30 @@ int main(){
     }
     return 0;
 }
+
+
+QUES 22 Input the week number and print the weekday?
+#include<stdio.h>
+int main(){
+    char week;
+    printf("enter a number between[1-7]:-");
+    scanf("%d",&week);
+    if(week == 1){
+        printf("it's Monday");
+    } else if(week == 2) {
+        printf("it's Tuesday");
+    } else if(week == 3){
+        printf("its' Wednesday");
+    } else if(week == 4){
+        printf("it's Thursday");
+    } else if(week == 5){
+        printf("it's Friday");
+    } else if(week == 6){
+        printf("it's Saturday");
+    } else if(week == 7){
+        printf("it's Sunday");
+    } else {
+        printf("it's not a week");
+    }
+    return 0;
+}
