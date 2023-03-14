@@ -288,3 +288,19 @@ int main(){
     }
     return 0;
 }
+
+QUES 19 Input any alphabet and check whether it is a vowel or consonant?
+#include<stdio.h>
+int main(){
+    char c;
+    printf("enter any alphabet:-");
+    scanf("%c",&c);
+    if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U'){
+        printf("%c you have entered vowel alphabet",c);
+    } else if((c >= 'a' || c <= 'z') && (c >= 'A' || c <= 'Z')){
+        printf("%c you have entered Consonant",c);
+    } else {
+        printf("%c is not an alphabet");
+    }
+    return 0;
+}
