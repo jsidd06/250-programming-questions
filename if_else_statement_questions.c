@@ -242,3 +242,17 @@ int main(){
     }
     return 0;
 }
+
+QUES 16 Find whether a number is even or odd.
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter any number:-");
+    scanf("%d",&num);
+    if(num % 2 == 0){
+        printf("your number is even");
+    } else{
+        printf("your number is odd");
+    }
+    return 0;
+}
