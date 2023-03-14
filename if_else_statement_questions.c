@@ -256,3 +256,21 @@ int main(){
     }
     return 0;
 }
+
+QUES 17 Check whether a year is a leap year or not?
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter any year:-");
+    scanf("%d",&num);
+    if(num % 400 == 0) {
+        printf("%d is a leap year",num);
+    } else if(num % 100 == 0){
+        printf("%d is not a leap year",num);
+    } else if(num % 4 == 0){
+        printf("%d is a leap year",num);
+    } else {
+        printf("%d is not leap year",num);
+    }
+    return 0;
+}
