@@ -508,3 +508,24 @@ int main()
     }
     return 0;
 }
+
+
+QUES 28 Calculate profit or loss?
+#include<stdio.h>
+int main(){
+    int cost,selling,amount;
+    printf("enter your cost:- ");
+    scanf("%d",&cost);
+    printf("enter your selling:- ");
+    scanf("%d",&selling);
+    if(selling > cost){
+        amount = selling - cost;
+        printf("profit is %d",amount);
+    } else if(cost > selling){
+        amount = cost - selling;
+        printf("loss is %d",amount);
+    } else {
+        printf("no profile no loss");
+    }
+    return 0;
+}
