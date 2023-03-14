@@ -321,3 +321,19 @@ int main(){
     }
     return 0;
 }
+
+QUES 21 Check whether a character is an uppercase or lowercase alphabet?
+#include<stdio.h>
+int main(){
+    char c;
+    printf("enter any character:-");
+    scanf("%d",&c);
+    if(c >= 'a' && c <= 'z'){
+        printf("you have entered a lowercase alphabet");
+    } else if(c >= 'A' && c <= 'Z') {
+        printf("you have entered a uppercase alphabet");
+    } else {
+        printf("no alphabet found.");
+    }
+    return 0;
+}
